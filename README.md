@@ -65,14 +65,14 @@ project-root/
    ```bash
    git clone https://github.com/<your-username>/wandering-scribe.git
    cd wandering-scribe
-   ```bash
+   ```
    
 2. **Run the server**
    ```bash  
     node server.js
-   ```bash 
+   ```
 
 3. **Open in browser**
-  ```sh
+  ```bash
     http://localhost:3000
-  ```sh
+  ```
