@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": "post-1",
+      "title": "The Best Gelato in Florence",
+      "author": "Jane Doe",
+      "date": "November 5, 2025",
+      "excerpt": "A short preview about finding amazing gelato shops...",
+      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/067/768/037/small/hand-holding-a-delicious-green-pistachio-ice-cream-cone-in-front-of-a-beautiful-fountain-with-vibrant-buildings-and-clear-blue-sky-creating-a-joyful-summer-atmosphere-photo.jpg",
+      "postUrl": "/posts/post-1"
+    },
+    {
+      "id": "post-2",
+      "title": "A Morning at the Local Market",
+      "author": "Jane Doe",
+      "date": "November 2, 2025",
+      "excerpt": "Exploring colors, sounds, and tastes of the weekly farmer's market...",
+      "imageUrl": "https://media.istockphoto.com/id/622288546/photo/market-scene-in-dijon.jpg?s=2048x2048&w=is&k=20&c=BGqVB7faDpNg2mMCfwN9OxnVLL2XM-gsPO59wvKKmp0=",
+      "postUrl": "/posts/post-2"
+    },
+    {
+      "id": "post-3",
+      "title": "My Journey Through the Alps",
+      "author": "Jane Doe",
+      "date": "November 8, 2025",
+      "excerpt": "This is the dynamic excerpt for the featured post...",
+      "imageUrl": "https://ryderwalker.com/wp-content/uploads/2016/11/Mont-Blanc-Chamonix-Alps-Depositphotos_122892878_XL.jpeg",
+      "postUrl": "/posts/post-3"
+    }
+  ],
+  "sidebar": {
+    "name": "Jane Doe",
+    "bio": "Welcome to my blog! I'm a traveler, foodie, and storyteller...",
+    "imageUrl": "https://placehold.co/150x150/a78bfa/ffffff?text=Your+Photo",
+    "categories": [
+      {
+        "name": "Travel Diaries",
+        "count": 5,
+        "url": "/category/travel"
+      },
+      {
+        "name": "Food Reviews",
+        "count": 8,
+        "url": "/category/food"
+      },
+      {
+        "name": "City Guides",
+        "count": 3,
+        "url": "/category/guides"
+      }
+    ]
+  }
+}

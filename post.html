@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between h-16 items-center">
+      <h1 class="text-3xl font-bold text-indigo-600">The Wandering Scribe</h1>
+      <a href="/" class="text-indigo-600 hover:text-indigo-800 font-medium">Home</a>
+    </div>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <!-- Post Content -->
+    <article class="md:col-span-2 bg-white rounded-lg shadow-lg p-8">
+      <img id="post-image" src="" alt="" class="w-full h-64 object-cover rounded-md mb-6">
+      <h2 id="post-title" class="text-3xl font-bold text-gray-900 mb-2"></h2>
+      <p id="post-meta" class="text-sm text-gray-500 mb-4"></p>
+      <p id="post-content" class="text-gray-700 leading-relaxed"></p>
+    </article>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="space-y-6">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-4">Other Posts</h3>
+        <ul id="other-posts" class="space-y-2"></ul>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="js/post.js"></script>
+</body>
+</html>

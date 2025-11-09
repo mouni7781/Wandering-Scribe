@@ -1,0 +1,26 @@
+[
+  {
+    "id": "post-1",
+    "title": "The Best Gelato in Florence",
+    "content": "Ah, Florence! The cradle of the Renaissance, a city overflowing with art, history, and, perhaps most importantly, incredible food. While every corner offers a culinary delight, there's one sweet treat that reigns supreme: gelato. I embarked on a delicious quest to find the absolute best gelato in Florence, and let me tell you, it was a journey worth every single scoop.My strategy was simple: eat as much gelato as humanly possible, from as many different gelaterias as I could find. I quickly learned that not all gelato is created equal. The truly authentic stuff is made with natural ingredients, has a vibrant, natural color (beware of neon!), and is served at a slightly warmer temperature than industrial ice cream, giving it that perfect creamy, melt-in-your-mouth texture.My first stop was La Carraia, located near the Ponte alla Carraia. This place is legendary, and for good reason. I opted for a classic pistachio and a scoop of their ricotta and pear. The pistachio was intensely flavorful, a true taste of the nut, and the ricotta and pear was a revelation – subtly sweet and incredibly fresh",
+    "author": "Mouni",
+    "date": "2025-11-08",
+    "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/067/768/037/small/hand-holding-a-delicious-green-pistachio-ice-cream-cone-in-front-of-a-beautiful-fountain-with-vibrant-buildings-and-clear-blue-sky-creating-a-joyful-summer-atmosphere-photo.jpg"
+  },
+  {
+    "id": "post-2",
+    "title": "A Morning at the Local Market",
+    "content": "There's something uniquely invigorating about a morning spent at a local market. It's a feast for the senses, a vibrant tapestry of sights, sounds, and smells that tells the story of a community. This past weekend, I woke early to experience just that, heading to our town's bustling Saturday market.As soon as I stepped onto the market square, I was enveloped in a lively symphony. The cheerful chatter of vendors, the rustle of bags, the clinking of coins, and the occasional burst of laughter created a joyful backdrop. The air was thick with the earthy scent of fresh produce, the sweet aroma of baking bread, and the tantalizing spices from various food stalls.My first stop was the fruit and vegetable section. Piles of glistening apples, vibrant bunches of carrots, and plump, ripe tomatoes were arranged like works of art. I chatted with a farmer who proudly told me about his organic strawberries, still warm from the morning sun. I couldn't resist buying a punnet – they were bursting with flavor, a true taste of summer.",
+    "author": "Jane Doe",
+    "date": "2025-11-02",
+    "imageUrl": "https://media.istockphoto.com/id/622288546/photo/market-scene-in-dijon.jpg?s=2048x2048&w=is&k=20&c=BGqVB7faDpNg2mMCfwN9OxnVLL2XM-gsPO59wvKKmp0="
+  },
+  {
+    "id": "post-3",
+    "title": "My Journey Through the Alps",
+    "content": "The majestic Alps have always held a special allure for me. The towering peaks, the pristine air, and the promise of adventure have long called to my soul. This past summer, I finally answered that call, embarking on a journey through the heart of these incredible mountains that left me breathless in more ways than one.My adventure began in the charming town of Chamonix, France, nestled at the foot of Mont Blanc, Western Europe's highest peak. The air was crisp, and the scent of pine filled my lungs as I gazed up at the snow-capped giants surrounding me.The first few days were spent acclimatizing and exploring the local trails. I took a cable car up to Aiguille du Midi, where the panoramic views of the Mont Blanc massif were simply astounding. It felt like standing on top of the world, with glaciers stretching out below and jagged peaks piercing the brilliant blue sky.",
+    "author": "Jane Doe",
+    "date": "2025-11-09",
+    "imageUrl": "https://ryderwalker.com/wp-content/uploads/2016/11/Mont-Blanc-Chamonix-Alps-Depositphotos_122892878_XL.jpeg"
+  }
+]

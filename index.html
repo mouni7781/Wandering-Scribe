@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Nav Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <!-- Logo/Title Section -->
+                <div class="logo flex-shrink-0 flex items-center">
+                    <h1 class="text-3xl font-bold text-indigo-600">
+                        <a href="/index.html"
+                            class="text-3xl font-bold text-indigo-600 hover:text-indigo-800 transition-colors">
+                            The Wandering Scribe
+                        </a>
+                    </h1>
+                </div>
+                <!-- Nav Links -->
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                    <a href="home" data-page="home.html"
+                        class="nav-link border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium active"
+                        aria-current="page">
+                        Home
+                    </a>
+                    <a href="#" data-page="travel.html"
+                        class="nav-link border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                        Travel
+                    </a>
+                    <a href="#" data-page="food.html"
+                        class="nav-link border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                        Food
+                    </a>
+                    <a href="#about" data-page="about.html"
+                        class="nav-link border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                        About Me
+                    </a>
+                </div>
+
+
+                <!-- Create Post Button -->
+                <div class="create-post-btn hidden sm:flex sm:items-center sm:ml-6">
+                    <a href="#"
+                        class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+                        <svg class="-ml-1 mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M10 3a1 1 0 011 1v4h4a1 1 0 110 2h-4v4a1 1 0 11-2 0v-4H5a1 1 0 110-2h4V4a1 1 0 011-1z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        Create Post
+                    </a>
+                </div>
+
+                <!-- Mobile menu button (optional) -->
+                <div class="-mr-2 flex items-center sm:hidden">
+                    <button type="button"
+                        class="bg-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <section id="home-section" class="block">
+        <div id="main-content" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+            <!-- Main content and sidebar grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Blog Posts  -->
+                <div class="md:col-span-2 space-y-12">
+
+                    <!-- Featured Post -->
+                    <article id="featured-post" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img id="featured-image" src="" alt="" class="w-full h-64 object-cover bg-gray-200">
+                        <div class="p-6 sm:p-8">
+                            <h2 id="featured-title" class="text-3xl font-bold text-gray-900 mb-3">
+                                <a href="" class="hover:text-indigo-600"></a>
+                            </h2>
+                            <p id="featured-meta" class="text-sm text-gray-500 mb-4">
+                            </p>
+                            <p id="featured-excerpt" class="text-gray-600 leading-relaxed mb-6">
+                            </p>
+                            <div class="flex items-center space-x-4">
+                                <a href="#" class="readmore text-indigo-600 hover:text-indigo-800 font-semibold">Read
+                                    more
+                                </a>
+                                <a href="#" class="edit text-gray-400 hover:text-blue-600" title="Edit Post">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor" aria-hidden="true">
+                                        <path
+                                            d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+                                    </svg>
+                                </a>
+                                <a href="#"
+                                    class="delete text-red-600 hover:text-red-800 font-medium text-sm">Delete</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- List of Recent Posts -->
+                    <section>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-6 border-b pb-3">Recent Posts</h3>
+                        <div id="recent-posts-list" class="space-y-8">
+                            <!-- 
+                          JavaScript will generate and append 
+                          <article> elements here.
+                        -->
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="md:col-span-1 space-y-8">
+
+                    <!-- About Me  -->
+                    <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                        <img id="about-image" src="https://placehold.co/150x150/a78bfa/ffffff?text=Your+Photo"
+                            alt="Portrait of blog author"
+                            class="w-32 h-32 rounded-full mx-auto mb-4 object-cover bg-gray-200">
+                        <!-- BLANK FOR JS: Populate About Me -->
+                        <h4 id="about-name" class="text-xl font-semibold mb-2"><!-- Name Populated Here --></h4>
+                        <p id="about-bio" class="text-gray-600 text-sm">
+                            <!-- Bio Populated Here -->
+                        </p>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="bg-white shadow-lg rounded-lg p-6">
+                        <h4 class="text-xl font-semibold mb-4 border-b pb-2">Categories</h4>
+                        <!-- BLANK FOR JS: Populate this list -->
+                        <ul id="categories-list" class="space-y-2 text-gray-600">
+                            <!-- 
+                          JavaScript will generate and append
+                          <li> elements here.
+                        -->
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter Sign-up  -->
+                    <div class="bg-white shadow-lg rounded-lg p-6">
+                        <h4 class="text-xl font-semibold mb-4">Subscribe</h4>
+                        <p class="text-gray-600 text-sm mb-4">Get the latest posts delivered right to your inbox.</p>
+                        <form action="#">
+                            <input type="email" placeholder="your.email@example.com"
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            <button type="submit"
+                                class="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 transition duration-200">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- About us Section -->
+    <section id="about-section" class="hidden bg-white shadow-lg rounded-lg p-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">About Me</h2>
+        <div class="flex flex-col sm:flex-row items-center gap-6">
+            <img src="https://placehold.co/150x150/a78bfa/ffffff?text=Me" alt="Profile"
+                class="rounded-full shadow-md w-32 h-32">
+            <div>
+                <p class="text-gray-700 leading-relaxed">
+                    Hi! I'm <span class="font-semibold">Jane Doe</span>, a traveler, foodie, and storyteller from
+                    Florence.
+                    I created this blog to share my experiences, photography, and adventures with the world.
+                </p>
+                <p class="text-gray-700 leading-relaxed mt-3">
+                    When I’m not traveling, I love writing about coffee shops, local cultures, and the stories behind
+                    food.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-12 py-8 bg-gray-800 text-gray-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 The Wandering Scribe. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/readpost.js"></script>
+    <script src="js/createpost.js"></script>
+    <script src="js/deletepost.js"></script>
+    <script src="js/updatepost.js"></script>
+
+</body>
+
+</html>
