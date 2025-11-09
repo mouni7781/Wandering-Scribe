@@ -73,6 +73,6 @@ project-root/
    ```
 
 3. **Open in browser**
-  ```bash
-    http://localhost:3000
-  ```
+   ```bash
+     http://localhost:3000
+   ```
